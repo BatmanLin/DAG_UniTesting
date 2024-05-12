@@ -63,7 +63,6 @@ namespace DAG_UniTesting
         [TestMethod]
         public void TestMethod2()
         {
-
             var shortestPathData = Program.ShortestPathData("B", "E", graphNodes);
             var truePath = new List<string> { "B", "F", "E" };
             int trueDist = 5;
